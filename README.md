@@ -1,2 +1,11 @@
 # Sistem-Odometri-Robot-Bawah-Air-Berbasis-Encoder-Thruster-Controller-ETC-untuk-Estimasi-Posisi
-# cekkekkkk
+ ETC-Based Localization Application on Autonomous Underwater Vehicles (AUVs)
+PyLocAUV ETC adalah aplikasi cerdas berbasis Encoder Thruster Controller (ETC) yang dikembangkan khusus untuk mendukung sistem lokalisasi pada Autonomous Underwater Vehicle (AUV) di lingkungan bawah laut. Aplikasi ini dirancang untuk memberikan solusi navigasi yang andal dan presisi tinggi dalam kondisi tanpa sinyal GPS, seperti di kedalaman laut atau area tertutup.
+
+Sistem ini bekerja dengan mengandalkan data dari ETC, yaitu sensor pengukur jumlah rotasi atau pulsa dari thruster AUV yang kemudian dikonversi menjadi estimasi jarak tempuh. Informasi ini kemudian dikombinasikan dengan data orientasi (seperti yaw, pitch, dan roll) yang diperoleh dari sensor Inertial Measurement Unit (IMU), sehingga dapat membentuk peta lintasan pergerakan AUV dalam koordinat dua dimensi (X dan Y). Proses ini memungkinkan AUV untuk menentukan posisi relatifnya terhadap titik awal secara kontinu dan dinamis, bahkan saat bergerak secara bebas di lingkungan bawah laut yang kompleks.
+
+Aplikasi ini dilengkapi dengan antarmuka pengguna yang intuitif dan mudah digunakan, memungkinkan operator atau peneliti untuk melakukan pemantauan posisi secara real-time, serta mengatur parameter navigasi sesuai kebutuhan. Data yang ditampilkan dapat digunakan untuk keperluan dokumentasi, pemetaan lingkungan bawah air, pengambilan keputusan strategis dalam kompetisi, hingga validasi sistem kontrol gerak robot.
+
+Dibandingkan metode manual atau sistem berbasis estimasi kasar, pendekatan berbasis ETC ini menawarkan peningkatan signifikan dalam hal akurasi, efisiensi, dan ketahanan terhadap gangguan lingkungan seperti arus air atau turbulensi. Selain itu, sistem ini juga dapat dikembangkan lebih lanjut untuk mendukung fitur-fitur lanjutan seperti kalibrasi otomatis, integrasi dengan sensor kedalaman, dan kemampuan navigasi berbasis peta.
+
+Dengan adanya PyLocAUV ETC, diharapkan pengembangan teknologi AUV di bidang akademik, industri, maupun kompetisi dapat berjalan lebih optimal dan terarah, serta mampu menjawab tantangan navigasi bawah laut dengan pendekatan yang lebih modern dan berbasis data.
