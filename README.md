@@ -1,10 +1,9 @@
 # Sistem-Odometri-Robot-Bawah-Air-Berbasis-Encoder-Thruster-Controller-ETC-untuk-Estimasi-Posisi
 
-<h1 align="center">
-  <img src="Assets/etc.png" width="180"/>
-  <br>
-
-
+<p align="center">
+  <img src="Asset/etc.png" width="180" alt="AUV Image"/>
+</p>
+    
 Sistem odometri merupakan metode fundamental dalam navigasi robot untuk mengestimasi jarak tempuh berdasarkan gerakan mekanis. Pada robot bawah air seperti Autonomous Underwater Vehicle (AUV), salah satu pendekatan yang digunakan adalah sistem odometri berbasis Encoder Thruster Controller (ETC). ETC berfungsi untuk mendeteksi dan menghitung jumlah rotasi dari thruster yang digunakan untuk mendorong robot di dalam air. Setiap kali thruster berputar, ETC menghasilkan pulsa digital yang mencerminkan seberapa banyak putaran telah terjadi selama pergerakan.
 
 Proses awal dimulai dengan pemasangan sensor encoder pada poros atau sistem penggerak thruster. Saat motor thruster aktif, gerakan rotasi dari baling-baling menghasilkan pulsa yang dibaca oleh ETC. Jumlah pulsa ini bersifat proporsional terhadap durasi dan intensitas kerja thruster. Semakin lama dan cepat thruster beroperasi, semakin banyak pulsa yang tercatat. Namun, karena dorongan air dan efisiensi mekanik dari sistem thruster tidak selalu linier terhadap jumlah pulsa, maka diperlukan metode kalibrasi untuk mengkonversi pulsa menjadi nilai jarak yang akurat.
