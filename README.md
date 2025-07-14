@@ -1,7 +1,7 @@
 # Sistem-Odometri-Robot-Bawah-Air-Berbasis-Encoder-Thruster-Controller-ETC-untuk-Estimasi-Posisi
 
 <h1 align="center">
-  <img src="assets/ETC.png" width="180"/>
+  <img src="Assets/etc.png" width="180"/>
   <br>
 
 
